@@ -1,0 +1,15 @@
+.Stock_Btn {
+  background-image: linear-gradient(71deg, #65e2d9 42%, #339ecc 100%);
+  outline: 0px;
+  border-radius: 360px;
+  border: 0px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.Stock_Btn:hover {
+  background-image: linear-gradient(71deg, #59d3ca 0%, #2d8bb4 100%);
+}
