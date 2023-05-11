@@ -11,8 +11,6 @@ import Testimonials from "./components/Testimonials";
 import Signup from "./components/Signup";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <>
       <Header asset1="Features" asset2="Team" asset3="Sign in"></Header>
