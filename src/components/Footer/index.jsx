@@ -3,20 +3,20 @@ const Footer = (props) => {
     <>
       <footer>
         <div className="footer_top">
-          <img className="Logo FooterLogo" src="icons\logo.svg" alt="Logo" />
+          <img className="Logo FooterLogo" src="icons/logo.svg" alt="Logo" />
         </div>
         <div className="footer_bottom">
           <div className="footer_location">
-            <img src="icons\icon-location.svg" alt="locationLogo" />
+            <img src="icons/icon-location.svg" alt="locationLogo" />
             <p>{props.location}</p>
           </div>
           <div className="footer_contact">
             <div className="footer_contact1">
-              <img src="icons\icon-phone.svg" alt="phoneicon" />
+              <img src="icons/icon-phone.svg" alt="phoneicon" />
               <p>{props.phone}</p>
             </div>
             <div className="footer_contact2">
-              <img src="icons\icon-email.svg" alt="emailicon" />
+              <img src="icons/icon-email.svg" alt="emailicon" />
               <p>{props.email}</p>
             </div>
           </div>
@@ -63,13 +63,13 @@ const Footer = (props) => {
           </div>
           <div className="footer_social">
             <a href="#" className="social">
-              <img src="icons\facebook.svg" alt="facebookicon" />
+              <img src="icons/facebook.svg" alt="facebookicon" />
             </a>
             <a href="#" className="social">
-              <img src="icons\twitter.svg" alt="twittericon" />
+              <img src="icons/twitter.svg" alt="twittericon" />
             </a>
             <a href="#" className="social">
-              <img src="icons\instagram.svg" alt="instagramicon" />
+              <img src="icons/instagram.svg" alt="instagramicon" />
             </a>
           </div>
         </div>
