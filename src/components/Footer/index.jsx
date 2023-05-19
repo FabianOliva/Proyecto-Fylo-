@@ -1,9 +1,11 @@
+import logo from "../../assets/logo.svg";
+
 const Footer = (props) => {
   return (
     <>
       <footer>
         <div className="footer_top">
-          <img className="Logo FooterLogo" src="icons/logo.svg" alt="Logo" />
+          <img className="Logo FooterLogo" src={logo} alt="Logo" />
         </div>
         <div className="footer_bottom">
           <div className="footer_location">
